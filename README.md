@@ -1,55 +1,72 @@
-# Contributing
+# [Project Name]
 
-Reusable collaboration boilerplate for projects.
+[Short description of what this project does and who it is for.]
 
-This repository contains default guidance for how humans and AI agents should
-work in a codebase.
+## Overview
 
-## What to copy
+[Explain the problem this project solves, the main capabilities it provides, and
+any important context a new contributor or user should know.]
 
-Copy these into the root of a project:
+## Getting Started
 
-- `CONTRIBUTING.md`
-- `AGENTS.md`
-- `.agents/`
+### Prerequisites
 
-Do not copy this `README.md` into consuming projects unless you want the project
-to explain this boilerplate repository itself.
+- [required runtime, tool, or service]
+- [required dependency]
+- [required account, credential, or environment access]
 
-## How it is intended to work
+### Setup
 
-`CONTRIBUTING.md` is for human contributors. It should contain the engineering
-standards, setup instructions, common commands, review expectations, and
-definition of done for the project.
+```sh
+[install dependencies]
+[copy or configure environment variables]
+[run database or service setup]
+```
 
-`AGENTS.md` is for AI agents. It should add agent-specific collaboration
-expectations while still requiring agents to follow `CONTRIBUTING.md`.
+### Run Locally
 
-`.agents/` contains supporting material for AI agents, including skills, notes,
-and templates.
+```sh
+[start command]
+```
 
-## Recommended usage
+## Common Commands
 
-Treat this repository as a source template, not as a runtime dependency.
+```sh
+[run tests]
+[run focused test]
+[run linter]
+[run formatter]
+[run type check]
+```
 
-For a new project:
+## Project Structure
 
-1. Copy `CONTRIBUTING.md`, `AGENTS.md`, and `.agents/` into the project root.
-2. Fill in project-specific setup, commands, and workflow details in
-   `CONTRIBUTING.md`.
-3. Add or remove `.agents/` skills and templates based on what the project
-   actually needs.
-4. Keep project notes concise, durable, and verified against the current
-   repository.
+```text
+[path]/    [description]
+[path]/    [description]
+[path]/    [description]
+```
 
-Avoid using this repository as a git submodule. These files are meant to be
-customized per project, and they work best when they live directly in the
-project root.
+## Configuration
 
-## Updating existing projects
+[Document required environment variables, config files, secrets, local services,
+and deployment-specific settings.]
 
-When this boilerplate improves, copy changes into existing projects
-intentionally.
+## Testing
 
-Review differences before overwriting local files, because consuming projects
-may have project-specific guidance that should be preserved.
+[Explain the testing strategy and how to run the relevant test suites.]
+
+## Deployment
+
+[Explain how this project is built, released, deployed, or published.]
+
+## Contributing
+
+See `CONTRIBUTING.md` for engineering standards, local workflow expectations,
+and the definition of done.
+
+AI agents should also read `AGENTS.md` before working in this repository.
+
+## License
+
+[License name or link.]
